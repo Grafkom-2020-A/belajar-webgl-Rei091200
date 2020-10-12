@@ -44,7 +44,7 @@ function main() {
     gl.clear(gl.COLOR_BUFFER_BIT);
 
 
-    var primitive = gl.TRIANGLE_FAN;
+    var primitive = gl.TRIANGLE_STRIP;
     var offset = 0;
     var count = 4; // Jumlah verteks yang akan digambar
     gl.drawArrays(primitive, offset, count);
